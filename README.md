@@ -106,5 +106,3 @@ it builds the same engineered columns before calling pipeline.predict_proba).
 Meesala Mohan Surya Sai
 Intern ID: CITS9842
 ```
-
-I put the author details at the top for visibility and repeated them in an Author section at the bottom. If you only want one of the two, just delete the other.
