@@ -1,0 +1,27 @@
+{
+  "roc_auc": 0.8248365598222787,
+  "accuracy": 0.7625,
+  "f1_score": 0.4647887323943662,
+  "cv": {
+    "roc_auc_mean": 0.8025632419388096,
+    "roc_auc_std": 0.013960832054307554,
+    "accuracy_mean": 0.73828125,
+    "accuracy_std": 0.012392112536811467,
+    "f1_mean": 0.4325491544191401,
+    "f1_std": 0.01865301188617125
+  },
+  "cv_folds": 5,
+  "best_params": {
+    "model__subsample": 1.0,
+    "model__reg_lambda": 1.0,
+    "model__reg_alpha": 0.5,
+    "model__n_estimators": 600,
+    "model__min_child_weight": 2,
+    "model__max_depth": 3,
+    "model__learning_rate": 0.01,
+    "model__colsample_bytree": 0.6
+  },
+  "training_seconds": 19.5,
+  "train_rows": 6400,
+  "test_rows": 1600
+}

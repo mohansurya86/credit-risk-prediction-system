@@ -1,0 +1,19 @@
+# Streamlit native theme settings - keeps built-in widgets (menus, tooltips,
+# selectboxes, sliders) visually consistent with the custom dark/purple theme
+# defined in app.py's injected CSS.
+
+[theme]
+base = "dark"
+primaryColor = "#7c3aed"
+backgroundColor = "#0b0f1e"
+secondaryBackgroundColor = "#121734"
+textColor = "#e5e7eb"
+font = "sans serif"
+
+[server]
+headless = false
+enableCORS = false
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
